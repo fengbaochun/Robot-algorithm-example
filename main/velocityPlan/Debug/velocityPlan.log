@@ -1,0 +1,10 @@
+﻿  main.cpp
+  velocityPlan.cpp
+e:\01-fengbaochun-master\robot-algorithm-example\main\velocityplan\velocityplan.cpp(18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\01-fengbaochun-master\robot-algorithm-example\main\velocityplan\velocityplan.cpp(23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\01-fengbaochun-master\robot-algorithm-example\main\velocityplan\velocityplan.cpp(27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\01-fengbaochun-master\robot-algorithm-example\main\velocityplan\velocityplan.cpp(31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\01-fengbaochun-master\robot-algorithm-example\main\velocityplan\velocityplan.cpp(60): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\01-fengbaochun-master\robot-algorithm-example\main\velocityplan\velocityplan.cpp(66): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  velocityPlan.vcxproj -> E:\01-fengbaochun-master\Robot-algorithm-example\main\Debug\velocityPlan.exe
