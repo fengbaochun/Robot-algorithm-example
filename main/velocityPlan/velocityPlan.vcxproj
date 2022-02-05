@@ -151,11 +151,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="kinematics.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyMatrix.cpp" />
     <ClCompile Include="velocityPlan.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includeCfg.h" />
+    <ClInclude Include="kinematics.h" />
+    <ClInclude Include="MyMatrix.h" />
     <ClInclude Include="velocityPlan.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

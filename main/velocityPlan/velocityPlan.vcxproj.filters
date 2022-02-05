@@ -21,12 +21,24 @@
     <ClCompile Include="velocityPlan.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="kinematics.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="velocityPlan.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="includeCfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kinematics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMatrix.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
