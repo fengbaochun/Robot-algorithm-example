@@ -19,30 +19,7 @@ function [robot,startT]= creatRobot()
     theta = [0,0,0,0,0,0]*pi/180;       %初始位姿的关节角度
     startT = robot.fkine(theta);   
 
-    startT = double(startT)*double(transl(400, 200, 300))*double(rotY(-pi/4))*double(rotX(pi/2)); %定义初始姿态
+    startT = double(startT)*double(transl(400, 200, 300))*double(troty(-45))*double(trotx(90)); %定义初始姿态
 end
-
-function rot_Y_matrix = rotY(theta)
-    % 计算绕Y轴旋转的矩阵
-    theta = sym(theta);
-    rot_Y_matrix = [
-       cos(theta), 0, sin(theta), 0;
-       0, 1, 0, 0;
-       -sin(theta), 0, cos(theta), 0;
-       0, 0, 0, 1];
-%     disp(rot_Y_matrix)
-end
-
-function rot_X_matrix = rotX(theta)
-    % 计算绕X轴旋转的矩阵
-    theta = sym(theta);
-    rot_X_matrix = [
-        1, 0, 0, 0;
-        0, cos(theta), -sin(theta), 0;
-        0, sin(theta), cos(theta), 0;
-        0, 0, 0, 1];
-%     disp(rot_X_matrix)
-end
-
 
 

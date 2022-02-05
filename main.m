@@ -21,7 +21,6 @@ function main()
         q=robot.ikine(T);           %逆解输出位姿p，求解出关节角q
         robot.plot(q);              %机械臂显示    
     end
-
 end
 
 
