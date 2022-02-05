@@ -7,9 +7,9 @@ function main()
     q=robot.ikine(startT);
     robot.plot(q);                      %显示机器人
 	% 插补参数
-    startPoint = [-100,-100,-100];  %插补起点
-    endPoint = [200,450,200];       %插补终点
-    speed = 20;                     %插补速度
+    startPoint = [-220,0,-140];  %插补起点
+    endPoint    = [220,-20,140];       %插补终点
+    speed = 40;                     %插补速度
     t0 = startT;                    %初始位姿
     [x,y,z,T] = lineInterpolation(t0,startPoint,endPoint,speed);    %插补结果
     % 显示轨迹
